@@ -1,0 +1,49 @@
+{
+  "name": "mnlua",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "preview-email": "email dev"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.17",
+    "@react-email/container": "0.0.8",
+    "@react-email/html": "0.0.4",
+    "@react-email/section": "0.0.9",
+    "@react-email/text": "0.0.5",
+    "@tanstack/react-query": "^4.29.5",
+    "@types/node": "18.16.2",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.2",
+    "cookies-next": "^2.1.2",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "keen-slider": "^6.8.5",
+    "next": "13.3.1",
+    "nodemailer": "^6.9.2",
+    "publitio_js_sdk": "^1.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-email": "1.9.3",
+    "react-fast-marquee": "^1.5.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.43.9",
+    "react-multi-carousel": "^2.8.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-toastify": "^9.1.3",
+    "react-transition-group": "^4.4.5",
+    "react-twitter-embed": "^4.0.4",
+    "styled-components": "^5.3.10",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.8"
+  }
+}
